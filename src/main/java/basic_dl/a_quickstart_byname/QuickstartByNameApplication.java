@@ -7,8 +7,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class QuickstartByNameApplication {
     public static void main(String[] args) {
-        BeanFactory factory=new ClassPathXmlApplicationContext("basic_dl/quickstart-byname.xml");
-        Person person= (Person) factory.getBean("person");
+        BeanFactory factory = new ClassPathXmlApplicationContext("basic_dl/quickstart-bytype.xml");
+        Person person = factory.getBean(Person.class);
         System.out.println(person);
     }
 }
