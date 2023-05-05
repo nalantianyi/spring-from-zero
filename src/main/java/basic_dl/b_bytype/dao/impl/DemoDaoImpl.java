@@ -1,6 +1,6 @@
-package basic_dl.dao.impl;
+package basic_dl.b_bytype.dao.impl;
 
-import basic_dl.dao.DemoDao;
+import basic_dl.b_bytype.dao.DemoDao;
 
 public class DemoDaoImpl implements DemoDao {
     public String findAll() {

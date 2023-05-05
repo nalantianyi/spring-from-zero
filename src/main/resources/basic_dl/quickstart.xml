@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="person" class="basic_dl.bean.Person"/>
-    <bean class="basic_dl.dao.impl.DemoDaoImpl"/>
+    <bean id="person" class="basic_dl.b_bytype.bean.Person"/>
+    <bean class="basic_dl.b_bytype.dao.impl.DemoDaoImpl"/>
 
 </beans>

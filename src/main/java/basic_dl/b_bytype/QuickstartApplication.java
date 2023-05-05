@@ -1,7 +1,7 @@
-package basic_dl;
+package basic_dl.b_bytype;
 
-import basic_dl.bean.Person;
-import basic_dl.dao.DemoDao;
+import basic_dl.b_bytype.bean.Person;
+import basic_dl.b_bytype.dao.DemoDao;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
