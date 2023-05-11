@@ -1,7 +1,7 @@
-package basic_di;
+package basic_di.quickstart;
 
-import basic_di.bean.Cat;
-import basic_di.bean.Person;
+import basic_di.quickstart.bean.Cat;
+import basic_di.quickstart.bean.Person;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -1,4 +1,4 @@
-package basic_di.bean;
+package basic_di.quickstart.bean;
 
 public class Cat {
     private String name;
