@@ -2,7 +2,7 @@ package basic_di.autowired.beans;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("administrator")
 public class Person {
 
     private String name = "administrator";
@@ -16,5 +16,9 @@ public class Person {
         return "Person{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    public String getName() {
+        return this.name;
     }
 }

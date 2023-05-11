@@ -1,6 +1,7 @@
 package basic_di.autowired.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -19,6 +20,7 @@ public class Dog {
     private Person person;
 
     @Autowired //setter 注入
+    @Qualifier("administrator")
     public void setPerson(Person person) {
         this.person = person;
     }
