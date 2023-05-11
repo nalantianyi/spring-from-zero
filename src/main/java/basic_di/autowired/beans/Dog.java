@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Component
 public class Dog {
     @Value("dogdog")
@@ -19,6 +21,9 @@ public class Dog {
     //    @Autowired 属性注入
     private Person person;
 
+    @Autowired
+    private List<Person> persions;
+
     @Autowired //setter 注入
     @Qualifier("administrator")
     public void setPerson(Person person) {
@@ -30,6 +35,7 @@ public class Dog {
         return "Dog{" +
                 "name='" + name + '\'' +
                 ", person=" + person +
+                ", persions=" + persions +
                 '}';
     }
 }
